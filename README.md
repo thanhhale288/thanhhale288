@@ -62,14 +62,6 @@
 
 ---
 
-### My Stack & Tools
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=py,fastapi,pytorch,sklearn,postgres,redis,elasticsearch,docker,react,nextjs,nodejs,java,git,github&perline=7" />
-</div>
-
----
-
 ### GitHub Activity Graph
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=thanhhale288&theme=react-dark&hide_border=true&area=true" />
