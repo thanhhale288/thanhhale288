@@ -77,7 +77,7 @@
 
 ---
 
-### GitHub Analytics & Streak
+### GitHub Analytics
 
 <div align="center">
 
@@ -87,12 +87,6 @@
   
   <a href="https://github.com/anuraghazra/github-readme-stats">
     <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=thanhhale288&layout=compact&theme=synthwave&hide_border=true&border_radius=10&cache_seconds=60" />
-  </a>
-
-  <br>
-
-  <a href="https://github.com/denvercoder1/github-readme-streak-stats">
-    <img src="https://streak-stats.demolab.com?user=thanhhale288&theme=dark&hide_border=true&border_radius=10&background=0D1117&ring=00F0FF&fire=00F0FF&currStreakLabel=00F0FF" />
   </a>
 
 </div>
