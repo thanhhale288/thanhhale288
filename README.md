@@ -3,12 +3,13 @@
   <img src="https://img.shields.io/badge/Hello%2C%20I'm%20Ha%20Le-000000?style=for-the-badge&logo=starship&logoColor=white" alt="Header" />
 
   <h1>🌌 Welcome to my universe!</h1>
-  <h3>AI / Data Engineer Intern @ BkFintech Institute · IT Student @ NEU</h3>
-
+  <h3>AI / Data Engineer Intern @ BkFintech Institute | IT Student @ NEU</h3>
+  
+  <br>
   <p>
-    <img src="https://komarev.com/ghpvc/?username=thanhhale288&label=Profile%20views&color=00F0FF&style=flat" alt="Profile Views" />
+    <img src="https://komarev.com/ghpvc/?username=thanhhale288&color=00F0FF" alt="Profile Views" />
   </p>
-
+  
 </div>
 
 ---
@@ -17,14 +18,12 @@
 
 * 🎯 **Current Focus:** Building **Time-Series ML models**, **ETL Pipelines**, and **RAG-based AI applications**.
 * 📚 **Learning Next:** Advanced **MLOps**, **Distributed Data Processing**, and **Cloud Architecture**.
-* 🤝 **Open to:** Discussions on **AI/ML Solutions**, **Data Engineering**, and **Fintech Innovations**.
+* 🤝 **Collaborations:** Open to discussions on **AI/ML Solutions**, **Data Engineering**, and **Fintech Innovations**.
 
 <br>
 
 ### 📧 Connect with Me
-
 <div align="center">
-
   <a href="https://github.com/thanhhale288">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
@@ -34,19 +33,16 @@
   <a href="https://www.linkedin.com/in/hale2808">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-
 </div>
 
 <div align="center">
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="280" alt="coding gif"/>
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="300"/>
 </div>
 
 ---
 
 ### 🚀 Tech Universe
-
 <div align="center">
-
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
@@ -62,7 +58,6 @@
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-
 </div>
 
 ---
@@ -70,15 +65,14 @@
 ### 🔧 My Stack & Tools
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=py,fastapi,pytorch,sklearn,postgres,redis,elasticsearch,docker,react,nextjs,nodejs,java,git,github&perline=7" alt="Skill icons"/>
+  <img src="https://skillicons.dev/icons?i=py,fastapi,pytorch,sklearn,postgres,redis,elasticsearch,docker,react,nextjs,nodejs,java,git,github&perline=7" />
 </div>
 
 ---
 
 ### 📊 GitHub Activity Graph
-
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=thanhhale288&amp;bg_color=0d1117&amp;color=00f0ff&amp;line=00f0ff&amp;point=ffffff&amp;area=true&amp;hide_border=true" alt="Activity Graph"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=thanhhale288&theme=react-dark&hide_border=true&area=true" />
 </div>
 
 ---
@@ -87,27 +81,35 @@
 
 <div align="center">
 
-  <img height="165" src="./profile/stats.svg" alt="GitHub Stats"/>
-  <img height="165" src="./profile/top-langs.svg" alt="Top Languages"/>
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=thanhhale288&theme=darkhub&column=6&margin-w=10&margin-h=10&no-bg=true" />
+  </a>
+  
+  <br>
 
-  <br/><br/>
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=thanhhale288&show_icons=true&theme=synthwave&hide_border=true&border_radius=10&cache_seconds=60" />
+  </a>
+  
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=thanhhale288&layout=compact&theme=synthwave&hide_border=true&border_radius=10&cache_seconds=60" />
+  </a>
 
-  <img src="./profile/streak.svg" alt="GitHub Streak"/>
+  <br>
+
+  <a href="https://github.com/denvercoder1/github-readme-streak-stats">
+    <img src="https://streak-stats.demolab.com?user=thanhhale288&theme=dark&hide_border=true&border_radius=10&background=0D1117&ring=00F0FF&fire=00F0FF&currStreakLabel=00F0FF" />
+  </a>
 
 </div>
 
 ---
 
-### 🐍 Contribution Snake
-
+### 🐍 Fun Fact: Commit Snake
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./profile/github-contribution-grid-snake-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="./profile/github-contribution-grid-snake.svg"/>
-    <img alt="github contribution snake" src="./profile/github-contribution-grid-snake.svg"/>
-  </picture>
+  <img src="https://github.com/thanhhale288/thanhhale288/blob/output/github-contribution-grid-snake.svg" alt="snake animation" />
 </div>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0D1117,50:00F0FF,100:0D1117&amp;height=120&amp;section=footer" alt="footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
 </div>
