@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="100" viewBox="0 0 800 100">
+  <rect width="800" height="100" fill="#0D1117"/>
+  <text x="400" y="55" fill="#00F0FF" font-family="monospace" font-size="16" text-anchor="middle">Generating contribution snake...</text>
+</svg>

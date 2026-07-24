@@ -78,7 +78,7 @@
 ### 📊 GitHub Activity Graph
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=thanhhale288&bg_color=0d1117&color=00f0ff&line=00f0ff&point=ffffff&area=true&hide_border=true" alt="Activity Graph"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=thanhhale288&amp;bg_color=0d1117&amp;color=00f0ff&amp;line=00f0ff&amp;point=ffffff&amp;area=true&amp;hide_border=true" alt="Activity Graph"/>
 </div>
 
 ---
@@ -87,18 +87,12 @@
 
 <div align="center">
 
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=thanhhale288&theme=darkhub&column=6&margin-w=10&margin-h=10&no-bg=true&no-frame=true" alt="Trophies"/>
-  </a>
+  <img height="165" src="./profile/stats.svg" alt="GitHub Stats"/>
+  <img height="165" src="./profile/top-langs.svg" alt="Top Languages"/>
 
   <br/><br/>
 
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=thanhhale288&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F0FF&icon_color=00F0FF&text_color=E6EDF3&ring_color=00F0FF" alt="GitHub Stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=thanhhale288&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F0FF&text_color=E6EDF3" alt="Top Languages"/>
-
-  <br/><br/>
-
-  <img src="https://streak-stats.demolab.com?user=thanhhale288&theme=dark&hide_border=true&background=0D1117&ring=00F0FF&fire=00F0FF&currStreakLabel=00F0FF&sideLabels=E6EDF3&dates=8B949E" alt="GitHub Streak"/>
+  <img src="./profile/streak.svg" alt="GitHub Streak"/>
 
 </div>
 
@@ -108,12 +102,12 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/thanhhale288/thanhhale288/output/github-contribution-grid-snake-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/thanhhale288/thanhhale288/output/github-contribution-grid-snake.svg"/>
-    <img alt="github contribution snake" src="https://raw.githubusercontent.com/thanhhale288/thanhhale288/output/github-contribution-grid-snake.svg"/>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/github-contribution-grid-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="./profile/github-contribution-grid-snake.svg"/>
+    <img alt="github contribution snake" src="./profile/github-contribution-grid-snake.svg"/>
   </picture>
 </div>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:00F0FF,100:0D1117&height=120&section=footer" alt="footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0D1117,50:00F0FF,100:0D1117&amp;height=120&amp;section=footer" alt="footer"/>
 </div>
