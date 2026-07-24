@@ -54,6 +54,11 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/*.svg
-          git diff --staged --quiet || git commit -m "chore: refresh profile README cards"
+          git add profile/stats.svg profile/top-langs.svg profile/streak.svg
+          if git diff --staged --quiet; then
+            echo "No card changes"
+            exit 0
+          fi
+          git commit -m "chore: refresh profile README cards"
+          git pull --rebase origin main
           git push
