@@ -2,7 +2,7 @@
 
   <img src="https://img.shields.io/badge/Hello%2C%20I'm%20Ha%20Le-000000?style=for-the-badge&logo=starship&logoColor=white" alt="Header" />
 
-  <h1>🌌 Welcome to my universe!</h1>
+  <h1>Welcome to my universe!</h1>
   <h3>AI / Data Engineer Intern @ BkFintech Institute | IT Student @ NEU</h3>
   
   <br>
@@ -14,15 +14,15 @@
 
 ---
 
-### 💻 About Me
+### About Me
 
-* 🎯 **Current Focus:** Building **Time-Series ML models**, **ETL Pipelines**, and **RAG-based AI applications**.
-* 📚 **Learning Next:** Advanced **MLOps**, **Distributed Data Processing**, and **Cloud Architecture**.
-* 🤝 **Collaborations:** Open to discussions on **AI/ML Solutions**, **Data Engineering**, and **Fintech Innovations**.
+* **Current Focus:** Building **Time-Series ML models**, **ETL Pipelines**, and **RAG-based AI applications**.
+* **Learning Next:** Advanced **MLOps**, **Distributed Data Processing**, and **Cloud Architecture**.
+* **Collaborations:** Open to discussions on **AI/ML Solutions**, **Data Engineering**, and **Fintech Innovations**.
 
 <br>
 
-### 📧 Connect with Me
+### Connect with Me
 <div align="center">
   <a href="https://github.com/thanhhale288">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
@@ -41,7 +41,7 @@
 
 ---
 
-### 🚀 Tech Universe
+### Tech Universe
 <div align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
@@ -62,7 +62,7 @@
 
 ---
 
-### 🔧 My Stack & Tools
+### My Stack & Tools
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=py,fastapi,pytorch,sklearn,postgres,redis,elasticsearch,docker,react,nextjs,nodejs,java,git,github&perline=7" />
@@ -70,14 +70,14 @@
 
 ---
 
-### 📊 GitHub Activity Graph
+### GitHub Activity Graph
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=thanhhale288&theme=react-dark&hide_border=true&area=true" />
 </div>
 
 ---
 
-### 📈 GitHub Analytics & Streak
+### GitHub Analytics & Streak
 
 <div align="center">
 
@@ -105,7 +105,7 @@
 
 ---
 
-### 🐍 Fun Fact: Commit Snake
+### Fun Fact: Commit Snake
 <div align="center">
   <img src="https://github.com/thanhhale288/thanhhale288/blob/output/github-contribution-grid-snake.svg" alt="snake animation" />
 </div>
