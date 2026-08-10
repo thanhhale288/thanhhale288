@@ -1,0 +1,72 @@
+name: Update README cards
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch stats and languages cards
+        run: |
+          mkdir -p profile
+          USER="${{ github.repository_owner }}"
+
+          # Official github-readme-stats.vercel.app is often paused; use a working mirror.
+          # Fall back across known public mirrors if one fails.
+          fetch_card() {
+            local out="$1"
+            shift
+            local url
+            for url in "$@"; do
+              if curl -fsSL --max-time 30 "$url" -o "$out"; then
+                local i
+                i=$(python3 -c "t=open('$out','rb').read(); print(t.find(b'<svg'))")
+                if [ "$i" -ge 0 ]; then
+                  python3 - <<PY
+from pathlib import Path
+p = Path("$out")
+t = p.read_bytes()
+i = t.find(b"<svg")
+t = t[i:]
+text = t.decode("utf-8", "ignore")
+if "Something went wrong" in text or "DEPLOYMENT_PAUSED" in text:
+    raise SystemExit("error card")
+p.write_bytes(t)
+print(p.name, "ok", p.stat().st_size, "from", "$url")
+PY
+                  return 0
+                fi
+              fi
+              echo "mirror failed: $url" >&2
+            done
+            echo "all mirrors failed for $out" >&2
+            exit 1
+          }
+
+          fetch_card profile/stats.svg \
+            "https://github-readme-stats-one-bice.vercel.app/api?username=${USER}&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F0FF&icon_color=00F0FF&text_color=E6EDF3&ring_color=00F0FF" \
+            "https://github-readme-stats.anuraghazra1.vercel.app/api?username=${USER}&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F0FF&icon_color=00F0FF&text_color=E6EDF3&ring_color=00F0FF"
+
+          fetch_card profile/top-langs.svg \
+            "https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=${USER}&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F0FF&text_color=E6EDF3" \
+            "https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=${USER}&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F0FF&text_color=E6EDF3"
+
+      - name: Commit cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/stats.svg profile/top-langs.svg
+          if git diff --staged --quiet; then
+            echo "No card changes"
+            exit 0
+          fi
+          git commit -m "chore: refresh profile README cards"
+          git pull --rebase origin main
+          git push

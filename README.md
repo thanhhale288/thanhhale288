@@ -88,22 +88,19 @@
 ### GitHub Analytics
 
 <div align="center">
-
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=thanhhale288&show_icons=true&theme=synthwave&hide_border=true&border_radius=10&cache_seconds=60" />
-  </a>
-  
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=thanhhale288&layout=compact&theme=synthwave&hide_border=true&border_radius=10&cache_seconds=60" />
-  </a>
-
+  <img height="165" src="./profile/stats.svg" alt="GitHub Stats"/>
+  <img height="165" src="./profile/top-langs.svg" alt="Top Languages"/>
 </div>
 
 ---
 
 ### Fun Fact: Commit Snake
 <div align="center">
-  <img src="https://github.com/thanhhale288/thanhhale288/blob/output/github-contribution-grid-snake.svg" alt="snake animation" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/github-contribution-grid-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="./profile/github-contribution-grid-snake.svg"/>
+    <img alt="github contribution snake" src="./profile/github-contribution-grid-snake.svg"/>
+  </picture>
 </div>
 
 <div align="center">
